@@ -27,6 +27,17 @@ pip install -r requirements.txt
 python -m pip install -r requirements.txt
 ```
 
+```
+deactivate
+
+py -3.12 -m venv .venv312
+
+.venv312\Scripts\activate
+
+python -m pip install --upgrade pip
+
+python -m pip install -r requirements.txt
+```
 설치 확인:
 
 ```bash
