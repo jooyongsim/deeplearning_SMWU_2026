@@ -1,0 +1,24 @@
+# 채점 자료: 교수자 전용 (채점 sheet, 자동 채점 스크립트, 참고 답안). 학생용 저장소에 올리지 않습니다.
+grading/
+
+# 실행 결과와 시연 데이터 (제출은 scripts/make_submission.py의 zip으로)
+runs/
+demos/
+submission_*.zip
+report.pdf
+slides.pptx
+slides.pdf
+youtube_url.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
