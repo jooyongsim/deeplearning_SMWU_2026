@@ -20,10 +20,11 @@
 Python 3.10–3.12를 권장합니다. GPU는 필요 없습니다.
 
 ```bash
-git clone <this repo> DL_assignment01 && cd DL_assignment01
+git clone https://github.com/jooyongsim/deeplearning_SMWU_2026.git DL_assignment01 && cd DL_assignment01
 python -m venv .venv
 # Windows:  .venv\Scripts\activate        macOS / Linux:  source .venv/bin/activate
 pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 설치 확인:
