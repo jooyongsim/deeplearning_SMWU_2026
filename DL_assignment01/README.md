@@ -30,6 +30,8 @@ python -m pip install -r requirements.txt
 ```
 deactivate
 
+py install 3.12
+
 py -3.12 -m venv .venv312
 
 .venv312\Scripts\activate
