@@ -1,0 +1,29 @@
+{
+  "note": "UR5e start joint angles (rad) and flange rotation in the robot base frame, from a real demonstration (gripper pointing down). The episode starts from these and IK moves the gripper above the cloth.",
+  "q": [
+    -1.7850621382342737,
+    -1.5124594879201432,
+    -1.8913542032241821,
+    -1.3098257345012208,
+    1.5720770359039307,
+    1.3568763732910156
+  ],
+  "R_flange_base": [
+    [
+      -1.8868006577132945e-05,
+      0.9999999998038743,
+      6.020804204443851e-06
+    ],
+    [
+      0.9999999998107657,
+      1.8867978038406008e-05,
+      4.7400701091456884e-06
+    ],
+    [
+      4.739956507814534e-06,
+      6.020893638978503e-06,
+      -0.9999999999706408
+    ]
+  ],
+  "finger_extent_m": 0.1628
+}

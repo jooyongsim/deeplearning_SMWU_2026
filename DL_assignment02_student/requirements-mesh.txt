@@ -1,0 +1,5 @@
+# 사진 -> 메쉬에서 SAM 분할(--seg sam)을 쓸 때만 필요 (GrabCut / click은 requirements.txt만으로 됩니다)
+torch
+torchvision
+transformers>=4.56
+pillow

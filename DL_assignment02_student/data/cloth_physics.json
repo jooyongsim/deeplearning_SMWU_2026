@@ -1,0 +1,9 @@
+{
+  "note": "Cloth material for MuJoCo 3.3.1 flex. NOT identified from real data (placeholders chosen so the double fold works and the sim runs about real time on a laptop CPU). mass: ~230 g/m^2 cotton; mu_table: cotton on wood with the grip of a slightly rough cloth; radius: contact radius = half the cloth's thickness.",
+  "mass": 0.02,
+  "mu_table": 1.0,
+  "radius": 0.002,
+  "edge_damping": 0.001,
+  "timestep": 0.004,
+  "selfcollide": "none"
+}

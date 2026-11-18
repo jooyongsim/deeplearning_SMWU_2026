@@ -1,0 +1,44 @@
+{
+  "photo": "example_photo_cloth.jpg",
+  "image_size": [
+    3000,
+    4000
+  ],
+  "seg": "sam",
+  "side_cm": 32.0,
+  "width_cm": 27.78,
+  "height_cm": 32.0,
+  "aspect": 0.868,
+  "focal_px": 3222.8,
+  "focal_35mm": 27.9,
+  "corner_reproj_px": 0.0,
+  "side_angle_deg": 90.0,
+  "corners_px": [
+    [
+      1164.0,
+      666.7
+    ],
+    [
+      2752.8,
+      826.7
+    ],
+    [
+      2055.2,
+      2774.9
+    ],
+    [
+      132.7,
+      2109.3
+    ]
+  ],
+  "texture_fill": 0.989,
+  "grid": [
+    17,
+    15
+  ],
+  "n_vertices": 255,
+  "n_faces": 448,
+  "spacing_m": 0.02,
+  "iou_mesh_vs_mask": 0.97,
+  "passed": true
+}

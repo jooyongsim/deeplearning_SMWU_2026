@@ -1,0 +1,12 @@
+# 시뮬레이터 + teleop (Milestone 0, 2) — Assignment 01과 같은 버전
+mujoco==3.3.1           # 3.3.1 고정: 새 버전(3.14에서 확인)은 천(flex)과 한 물체의 접촉을 50개로 제한해서 천이 테이블을 뚫고 떨어집니다
+robosuite==1.5.2        # UR5e + Robotiq 그리퍼 모델
+numpy<2
+opencv-python-headless
+imageio-ffmpeg          # 결과 영상 mp4 (H.264)
+pynput                  # teleop 키 입력
+matplotlib
+# 강화학습 (Milestone 3, 4)
+torch
+gymnasium
+stable-baselines3
