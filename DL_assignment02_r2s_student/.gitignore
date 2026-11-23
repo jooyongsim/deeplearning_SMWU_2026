@@ -1,0 +1,18 @@
+# 교수자 전용 (정답 강성, 참고 답안, 교수님 영상, RealSense 비교, 발표 자료 만들기)
+grading/
+data/
+
+# 실행 결과
+results_*/
+results_*.zip
+report.pdf
+slides.pptx
+slides.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

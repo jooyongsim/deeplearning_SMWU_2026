@@ -1,0 +1,12 @@
+# Colab에서는 노트북이 필요한 것을 설치합니다. 로컬에서 돌릴 때 (conda create -n dl_real2sim python=3.11):
+mujoco==4.0.1          # 4.x: 안 늘어나는 천 + 굽힘 강성(elastic2d="bend")을 함께 쓸 수 있음 (3.3.1은 불가)
+numpy<2.3
+opencv-python
+imageio-ffmpeg
+matplotlib
+torch                  # GPU 권장 (인식 모델)
+torchvision
+transformers>=4.56     # Grounding DINO, SAM 2.1, Depth Anything V2
+accelerate
+pillow
+nbformat
